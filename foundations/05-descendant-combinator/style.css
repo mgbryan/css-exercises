@@ -1,0 +1,30 @@
+/* Descendant combinator using type and class selectors */
+/* Below CSS selects elements with the 'container' class and <p> as their descendants */
+.container p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Descendant combinator using only class selectors */
+/* Below CSS selects elements containing both 'container' AND 'text' as their classes */
+/*
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* Descendant combinator using only type selectors */
+/* Below CSS selects <div> elements that have <p> elements as descendants */
+/*
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
